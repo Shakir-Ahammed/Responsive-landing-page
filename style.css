@@ -110,48 +110,55 @@
   display: flex;
   width: 50%;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
 }
+
 .img4p {
   display: flex;
   width: 75%;
+  margin-left: 15%;
   /*height: 75%;*/
+
   flex-wrap: wrap;
 }
 .img2p1 {
   display: flex;
   width: 100%;
-  min-width: 200px;
+
   flex-wrap: wrap;
 }
 .img2p2 {
   display: flex;
   width: 100%;
-  min-width: 200px;
+
   flex-wrap: wrap;
 }
 .img1 {
-  width: 50%;
+  width: 48%;
   min-width: 200px;
+  margin: 2px;
 }
 .img2 {
-  width: 50%;
+  width: 48%;
   min-width: 200px;
+  margin: 2px;
 }
 .img3 {
-  width: 50%;
+  width: 48%;
   min-width: 200px;
+  margin: 2px;
 }
 .img4 {
-  width: 50%;
+  width: 48%;
   min-width: 200px;
+  margin: 2px;
 }
-/*img {
+.img {
   height: 95%;
   width: 95%;
-}*/
+}
 .textcon2 {
   display: flex;
   width: 50%;
@@ -204,15 +211,16 @@
 }
 .con3 {
   display: flex;
-
+  flex-direction: row;
+  flex-wrap: wrap;
   background-color: #f1f1f1;
   width: 100%;
 }
 .textcon3 {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  width: 50%;
+
+  width: 49%;
   margin: 10px;
   margin-top: 50px;
 }
@@ -244,7 +252,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  height: 25%;
+
   width: 100%;
   box-shadow: 0 8px 16px 0 rgba(113, 111, 111, 0.783);
   border-radius: 15px;
@@ -260,33 +268,37 @@
   padding: 2px;
 }
 .blog-title {
-  font-size: 80%;
+  font-size: 1em;
   margin: 5px;
   font-weight: bold;
 }
 .blog-description {
-  font-size: 70%;
+  font-size: 100%;
   color: darkgray;
   margin: 5px;
 }
 .imgcon3 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100%;
-  width: 50%;
+  width: 49%;
 }
 .imgc3 {
   display: flex;
-  justify-content: flex-start;
-  margin-right: 20%;
+
+  margin-left: 5%;
 }
 .women {
   height: 100%;
   width: 100%;
+  min-width: 200px;
+  min-height: 400px;
 }
 .exp {
   background-color: #ff900e;
-  width: 25%;
+  width: 30%;
   height: 100px;
   display: flex;
   justify-content: center;
@@ -295,10 +307,10 @@
   border-radius: 10px;
 }
 .exp h1 {
-  font-size: 135%;
+  font-size: 2em;
 }
 .exp p {
-  font-size: 70%;
+  font-size: 1.5em;
 }
 .lastcon {
   height: 100vh;
@@ -324,15 +336,18 @@
 }
 .l2con {
   display: flex;
+
   justify-content: space-between;
   height: 30%;
   width: 75%;
 }
 .boxs {
   display: flex;
+
   flex-direction: column;
   height: 95%;
   width: 19%;
+
   justify-content: center;
   align-items: center;
   border: 1px solid #ff900e;
